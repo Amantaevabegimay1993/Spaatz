@@ -2,7 +2,7 @@
 
 * {
 	margin: 0;
-	padding: o;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -15,10 +15,10 @@
 	background: url('../assets/png/IMAGE\ \(47\).png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-width: 1440px;
 	width: 100%;
 	padding-top: 40px;
 	height: 1086px;
+	margin-bottom:350px;
 }
 .nav__wrapper {
 	max-width: 1340px;
@@ -61,9 +61,8 @@
 	font-size: 18px;
 	line-height: 25px;
 	color: #ffffff;
-	padding: 16px 31px 19px 31px;
-	
-	width: 212px;
+	padding: 7px 31px 13px 31px;	
+	width: 276px;
 }
 .nav__wrapper-img{
 	margin-right: 1.1%;
@@ -86,14 +85,17 @@
 	display: flex;
 	justify-content: space-between;
   }
-  .perfect__left {
+.perfect__left {
 	max-width: 645px;
 	
   }
-  .perfect__right img{
-	  margin-top: 160px;
+.perfect__right img{
+	width: 645px;
+	height:558px;
+    margin-top: 160px;
+	  
   }
-  .perfect__title {
+.perfect__title {
 	margin-top: 175px;
 	font-family: var(--family--fonts);
 	font-style: normal;
@@ -162,24 +164,30 @@
   .perfect__right {
   }
 
-.about__wrapper-btm{	
-	display: flex;
-	justify-content: center;
-	height: 72px;
-    width:calc(100%-1200px);
-    
-    
-
-    
+.about__btn{
+	background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+	padding: 27px 24px 27px 36px;
+	text-align: center;
 
 }
+.about__wrapper-btm{
+	text-align: center;
+	margin-top: 50px;
+}    
+
+    
+
+
 .about__btn{
 	background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 70px;
 	margin: 0 auto;
 	width: 232px;
-
+	margin-top: 25px;
+	margin: 0 auto;
 }
 .about__btn img{
 	margin-left: 30px;
@@ -245,6 +253,7 @@
 .capture { 
 	max-width: 1440px;
 	width: 100%;
+	margin: 0 auto;
 	
 }
 .capture__convert {
@@ -408,10 +417,7 @@
 	
 	
 }
-.watch__left-blue img{
-	
-	
-}
+
 .support {
 	width: 481px;
 	padding: 40px;
@@ -434,7 +440,9 @@
 	justify-content: space-between;
   }
 .software {
-	width: 1440px;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
 	
 }
 .flexible__img{
@@ -459,8 +467,7 @@
 	
 }
 .software__flexible {
-	width: 459px;
-	height: 202px;
+	width: 459px;	
 	background: #1B2534;
     border-radius: 20px;
 	margin: 70px 30px 28px 50px;
@@ -487,8 +494,7 @@
 }
 .software__simplified {
 	width: 459px;
-	height: 202px;
-	margin: 70px 30px 28px 50px;
+	margin: 28px 30px 28px 50px;
 }
 .simplified__title {
 	font-family: 'Open Sans';
@@ -508,8 +514,7 @@
 }
 .software__branded {
 	width: 459px;
-	height: 202px;
-	margin: 46px 30px 46px 50px;
+	margin: 28px 30px 46px 50px;
 }
 .branded__title {
 	font-family: 'Open Sans';
@@ -529,8 +534,7 @@
 }
 .software__reporting {
 	width: 459px;
-	height: 202px;
-	margin: 70px 30px 28px 50px;
+	margin: 28px 30px 28px 50px;
 }
 
 .reporting__title {
@@ -562,7 +566,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width:1440px ;
+	width:100% ;
 	height:859px ;
 	background: #1B2534;
     border-radius: 0px;
@@ -733,15 +737,19 @@ margin: 0 10px;
 
 
 
-.cards__btn {
-}
+.cards__bottom img{
+	width: 1200px;
+} 
+
+
 .cards2__wrapper {
-	width: 1440px;
+	width:100%;
 	background: linear-gradient(294.27deg, #30A8FF 0%, #C4F5C9 100%);	
 
 }
 .cards2__conteiner {
-	width: 1400px;
+	width:100%;
+	margin: 0 auto;
 	
 }
 .cards2__top {
@@ -750,12 +758,15 @@ margin: 0 10px;
 	align-items: flex-end;
 	
 }
-.cards2__top button{
+.cards2__top div{
 	width: 261px;
 	height: 72px;
 	background: #1B2534;
     border: 1px solid #1B2534;
     border-radius: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 .cards2__top h2{
 	font-family: 'Open Sans';
@@ -769,15 +780,12 @@ margin: 0 10px;
 	
 }
 .cards2__buttom img{
-	max-width: 1340px;
 	width: 100%;
 	margin: 0 auto;
 	
 	
 } 
 .cards2__bottom{
-	max-width: 1340px;
-	width: calc(100%-100px);
 	margin-top: 81px;	
 	margin-left: 50px;
 	margin-right: 50px;
